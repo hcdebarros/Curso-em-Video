@@ -8,15 +8,12 @@ ladoc = float(input("Insira a medida do lado C"))
 if ladoa + ladob <= ladoc:
     print("Não é um triângulo")
     
-
 if ladoa + ladoc <= ladob:
     print("Não é um triângulo")
     
-
 if ladob + ladoc <= ladoa:
     print("Não é um triângulo")
     
-
 if ladoa == ladob == ladoc:
     print("É um triângulo equilátero")
 
