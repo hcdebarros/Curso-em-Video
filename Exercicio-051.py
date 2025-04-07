@@ -3,5 +3,5 @@
 prim = int(input('Insira o primeiro termo da PA: '))
 razao = int(input('Insira a razão da PA: '))
 
-for i in range(prim, razao*10, razao):
+for i in range(prim, razao*11, razao):
     print(i, end =' ')
