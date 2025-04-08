@@ -6,9 +6,10 @@
 
 conthomens = contmulheres = contidade = 0
 while True:
-    nome = str(input('Insira o nome do paciente: ')).strip().capitalize()
     idade = int(input('Insira a idade do paciente: '))
-    sexo = str(input('Insira o sexo do paciente (F- feminino, M- Masculino) ')).strip().upper()[0]
+    sexo = ' '
+    while sexo not in 'MF':
+        sexo = str(input('Insira o sexo do paciente (F- feminino, M- Masculino) ')).strip().upper()[0]
 
     if idade > 18:
         contidade += 1
